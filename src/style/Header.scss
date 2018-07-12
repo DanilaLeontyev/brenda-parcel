@@ -1,0 +1,56 @@
+.header--bgImage {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -9999;
+}
+
+.header--upRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.header--logotype {
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+    font-family: 'Noto Sans', serif;
+}
+
+.header--telButton {
+    cursor: pointer;
+    min-width: 215px;
+    border-radius: 35px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 57px;
+    padding-left: 13px;
+}
+
+.header--telIcon{
+    font-family: 'Futura';
+    font-weight: bold;
+    display: block;
+    background-color: #ff1b60;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.header--telIcon > img {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    top: 10px;
+    left: 10px;
+}
+
+.header--telButton > button {
+    margin-left: 14px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}

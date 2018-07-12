@@ -1,0 +1,11 @@
+{
+  "modules": false,
+  "plugins": {
+    "autoprefixer": true,
+    "postcss-font-magician": {
+      "hosted": [
+        "./src/assets/fonts/Futura/"
+      ]
+    }
+  }
+}

@@ -475,6 +475,10 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: 'Futura';
+  src: url("FuturaPTHeavy.83ff1538.otf") format("opentype"); }
+
 .header--bgImage {
   position: absolute;
   right: 0;
@@ -505,8 +509,6 @@ template {
   padding-left: 13px; }
 
 .header--telIcon {
-  font-family: 'Futura';
-  font-weight: bold;
   display: block;
   background-color: #ff1b60;
   width: 35px;
@@ -521,6 +523,7 @@ template {
   left: 10px; }
 
 .header--telButton > button {
+  font-family: 'Futura';
   margin-left: 14px;
   cursor: pointer;
   background: none;

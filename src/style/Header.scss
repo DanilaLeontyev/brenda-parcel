@@ -32,8 +32,6 @@
 }
 
 .header--telIcon{
-    font-family: 'Futura';
-    font-weight: bold;
     display: block;
     background-color: #ff1b60;
     width: 35px;
@@ -49,6 +47,7 @@
 }
 
 .header--telButton > button {
+    font-family: 'Futura';
     margin-left: 14px;
     cursor: pointer;
     background: none;

@@ -476,7 +476,7 @@ template {
   display: none; }
 
 @font-face {
-  font-family: 'Futura';
+  font-family: 'FuturaHeavy';
   src: url("FuturaPTHeavy.83ff1538.otf") format("opentype"); }
 
 .header--bgImage {
@@ -536,11 +536,32 @@ template {
   left: 10px; }
 
 .header--telButton > button {
-  font-family: 'Futura';
+  font-family: 'FuturaHeavy',serif;
   margin-left: 14px;
   cursor: pointer;
   background: none;
   border: none; }
+
+.header--title {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 52px;
+  line-height: 60px; }
+
+.feature-container {
+  font-family: 'Noto Sans', serif;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px; }
+
+.feature-container > li {
+  display: flex;
+  margin-top: 20px;
+  align-items: center; }
+
+.featureImg {
+  margin-right: 20px; }
 
 .main-container {
   min-width: 1140px;

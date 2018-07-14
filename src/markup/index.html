@@ -40,8 +40,33 @@
         <li>
           <img class="featureImg" src="../assets/icons/check.svg" alt="icon" />Высокий сервис обслуживания</li>
       </ul>
-      <img class="header--bgImage" width="1100" src="../assets/img/bg-image.png" alt="Девушка"
-      />
+      <img class="header--bgImage" width="1220" height="900" src="../assets/img/bg-image.png"
+        alt="Девушка" />
+
+      <section class="header--form">
+        <span class="header--line"></span>
+        <p>Запишитесь
+          <br> онлайн прямо
+          <br> сейчас
+        </p>
+        <div class="header--sighUpContainer">
+          <form action="POST" class="signUp">
+            <div class="signUp--inputContainer">
+              <img width="15" height="18" src="../assets/icons/man.svg" alt="manIcon">
+              <input type="text" name="name" id="signUp--name" placeholder="Имя">
+            </div>
+            <div class="signUp--inputContainer">
+              <img width="18" height="18" src="../assets/icons/Phoneicon.svg" alt="phoneIcon">
+              <input type="tel" name="tel" id="signUp--tel" placeholder="Телефон">
+            </div>
+            <button class="signUp--button" type="submit">Записаться</button>
+          </form>
+          <p class="signUp--rules">
+            Нажимая кнопку "Записаться", я даю согласие на
+            <span class="signUp--rules__black">обработку персональных данных</span>
+          </p>
+        </div>
+      </section>
     </header>
 
   </div>

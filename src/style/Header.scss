@@ -71,6 +71,7 @@
     font-family: 'FuturaHeavy', serif;
     font-size: 52px;
     line-height: 60px;
+    margin-top: 110px;
 }
 
 .feature-container {
@@ -80,6 +81,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 70px;
+    padding: 0;
 }
 
 .feature-container > li {
@@ -90,4 +92,79 @@
 
 .featureImg {
     margin-right: 20px;
+}
+
+.header--line {
+    width: 100px;
+    border-top: 2px solid #ff1b60;
+    height: 0;
+    margin-top: 15px;
+}
+
+.header--form {
+    margin-top: 205px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header--form > p {
+    font-family: 'FuturaHeavy', serif;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    margin-left: 95px;
+    margin-right: 130px;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header--sighUpContainer {
+    flex-grow: 1; 
+    color: #bdb9ba; 
+    font-family: 'Noto Sans', serif; 
+}
+
+.signUp input {
+    font-size: 16px;
+    border: none;
+}
+.signUp input::placeholder {
+    color: #bdb9ba;
+}
+
+.signUp--inputContainer {
+    display: flex;
+    border-bottom: 1px solid #e3e4e5;
+    width: 200px;
+    padding-bottom: 30px;
+}
+.signUp--inputContainer > img{
+    margin-right: 20px;
+}
+
+.signUp--rules {
+    margin-top: 30px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.signUp--button {
+    padding: 15px;
+    background-color: #ff1b60;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    width: 195px;
+    border-radius: 35px;
+    box-shadow: 0 10px 50px rgba($color: #ff1b60, $alpha: 0.2)
+}
+
+.signUp--rules__black {
+    color: black;
+    font-weight: bold;
 }

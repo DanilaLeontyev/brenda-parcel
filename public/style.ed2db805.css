@@ -650,20 +650,46 @@ template {
   font-family: 'FuturaHeavy', serif; }
 
 .services--title {
-  font-size: 52px; }
+  font-size: 52px;
+  margin-bottom: 70px; }
 
 .services--container {
   display: flex;
   flex-direction: column; }
 
 .gallery--firstRow {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
+
+.gallery--other {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .gallery--otherFirstRow {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 .gallery--secondRow {
-  display: flex; }
+  display: flex;
+  margin-top: 75px;
+  justify-content: space-between; }
+
+.gallery--item {
+  display: flex;
+  flex-direction: column; }
+
+.gallery--itemDescription {
+  display: flex;
+  margin-top: 35px; }
+
+.gallery--line {
+  width: 100px;
+  display: block;
+  height: 0;
+  border-top: 2px solid #ff1b60;
+  margin-right: 90px;
+  margin-top: 5px; }
 
 .main-container {
   min-width: 1140px;

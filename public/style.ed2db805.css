@@ -630,6 +630,7 @@ template {
   font-style: italic; }
 
 .signUp--button {
+  cursor: pointer;
   padding: 15px;
   background-color: #ff1b60;
   color: white;
@@ -643,6 +644,26 @@ template {
 .signUp--rules__black {
   color: black;
   font-weight: bold; }
+
+.services {
+  margin-top: 160px;
+  font-family: 'FuturaHeavy', serif; }
+
+.services--title {
+  font-size: 52px; }
+
+.services--container {
+  display: flex;
+  flex-direction: column; }
+
+.gallery--firstRow {
+  display: flex; }
+
+.gallery--otherFirstRow {
+  display: flex; }
+
+.gallery--secondRow {
+  display: flex; }
 
 .main-container {
   min-width: 1140px;

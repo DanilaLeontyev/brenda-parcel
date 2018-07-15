@@ -738,6 +738,9 @@ template {
   width: 165px;
   margin-right: 25px; }
 
+.gallery--itemDescription > span {
+  font-size: 18px; }
+
 .gallery--item:hover .gallery--itemDescription > span {
   color: #ff1b60; }
 

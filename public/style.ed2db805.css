@@ -1,4 +1,34 @@
 @font-face{
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Playfair Display Italic"),local(PlayfairDisplay-Italic),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk_.eot?#) format("eot"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7.woff2) format("woff2"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk9.woff) format("woff"); }
+@font-face{
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Playfair Display Bold Italic"),local(PlayfairDisplay-BoldItalic),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFnD-vYSZviVYUb_rj3ij__anPXDTngOWwu5DRi.eot?#) format("eot"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFnD-vYSZviVYUb_rj3ij__anPXDTngOWwu5DRm.woff2) format("woff2"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFnD-vYSZviVYUb_rj3ij__anPXDTngOWwu5DRg.woff) format("woff"); }
+@font-face{
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 900;
+  src: local("Playfair Display Black Italic"),local(PlayfairDisplay-BlackItalic),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFnD-vYSZviVYUb_rj3ij__anPXDTngAW4u5DRi.eot?#) format("eot"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFnD-vYSZviVYUb_rj3ij__anPXDTngAW4u5DRm.woff2) format("woff2"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFnD-vYSZviVYUb_rj3ij__anPXDTngAW4u5DRg.woff) format("woff"); }
+@font-face{
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Playfair Display Regular"),local(PlayfairDisplay-Regular),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYhA.eot?#) format("eot"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2) format("woff2"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYhg.woff) format("woff"); }
+@font-face{
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Playfair Display Bold"),local(PlayfairDisplay-Bold),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBYf9lW4e4g.eot?#) format("eot"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBYf9lW4e5g.woff2) format("woff2"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBYf9lW4e4A.woff) format("woff"); }
+@font-face{
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Playfair Display Black"),local(PlayfairDisplay-Black),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBb__lW4e4g.eot?#) format("eot"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBb__lW4e5g.woff2) format("woff2"),url(//fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBb__lW4e4A.woff) format("woff"); }
+@font-face{
   font-family: "Noto Sans";
   font-style: italic;
   font-weight: 400;
@@ -747,6 +777,80 @@ template {
 .gallery--item:hover .gallery--animatedBlock {
   -webkit-transform: translateX(800px);
           transform: translateX(800px); }
+
+.about--title {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 52px;
+  margin-top: 120px; }
+
+.safety--title {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  color: #ff1b60;
+  margin: auto;
+  position: relative;
+  top: -53px;
+  background-color: white;
+  text-align: center;
+  width: 180px; }
+
+.about--safety {
+  position: relative;
+  border: 1px solid #e3e4e5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 95px; }
+
+.safety--secondTitle {
+  font-family: 'FuturaHeavy' ,serif;
+  font-size: 24px;
+  margin: auto; }
+
+.safety--content {
+  display: flex;
+  width: 780px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px; }
+
+.safety--logo {
+  margin-left: -20px;
+  margin-top: 5px; }
+
+.description--text {
+  font-family: 'Noto Sans',serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.description--certificates {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between; }
+
+.cert-wrapper {
+  cursor: pointer;
+  border: 1px solid #e3e4e5;
+  padding: 18px; }
+
+.cert-wrapper:hover {
+  border: 1px solid #ff1b60; }
+
+.safety--rose {
+  position: absolute;
+  right: 20px;
+  top: -75px; }
+
+.safety--leaf {
+  position: absolute;
+  top: 400px;
+  left: -120px; }
 
 .main-container {
   min-width: 1140px;

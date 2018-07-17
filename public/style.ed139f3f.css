@@ -507,7 +507,7 @@ template {
 
 @font-face {
   font-family: 'FuturaHeavy';
-  src: url("FuturaPTHeavy.83ff1538.otf") format("opentype"); }
+  src: url("FuturaPTHeavy.603e2558.otf") format("opentype"); }
 
 .header--bgImage {
   position: absolute;
@@ -802,7 +802,7 @@ template {
   margin-top: 95px; }
 
 .safety--secondTitle {
-  font-family: 'FuturaHeavy' ,serif;
+  font-family: 'FuturaHeavy', serif;
   font-size: 24px;
   margin: auto; }
 
@@ -819,7 +819,7 @@ template {
   margin-top: 5px; }
 
 .description--text {
-  font-family: 'Noto Sans',serif;
+  font-family: 'Noto Sans', serif;
   font-size: 16px;
   line-height: 30px;
   margin-left: 30px;
@@ -851,6 +851,72 @@ template {
   position: absolute;
   top: 400px;
   left: -120px; }
+
+.about--instrument {
+  position: relative;
+  border: 1px solid #e3e4e5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px; }
+
+.instrument--title {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  color: #ff1b60;
+  margin: auto;
+  position: relative;
+  top: -53px;
+  background-color: white;
+  text-align: center;
+  width: 180px; }
+
+.instrument--secondTitle {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 24px;
+  margin: auto; }
+
+.instrument--content {
+  display: flex;
+  flex-direction: column;
+  width: 745px;
+  margin: 0 auto;
+  margin-top: 55px; }
+
+.content--item {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-around; }
+
+.item--image {
+  position: relative;
+  align-self: baseline;
+  margin-right: 40px; }
+
+.description--title {
+  font-family: 'Noto Sans', serif;
+  font-size: 16px; }
+
+.description--text {
+  font-family: 'Noto Sans', serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0; }
+
+.item--image > span {
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ff1b60;
+  color: white;
+  font-family: 'Noto Sans', serif;
+  font-size: 12px;
+  line-height: 30px;
+  top: 0px;
+  right: 0px;
+  border: 4px solid white; }
 
 .main-container {
   min-width: 1140px;

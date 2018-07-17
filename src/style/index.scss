@@ -1,13 +1,12 @@
-
 @import '../../node_modules/normalize-scss/sass/normalize/_import-now.scss';
 @import './_fonts.scss';
 @import './Header.scss';
 @import './Services.scss';
-@import './About.scss';
-
+@import './AboutSafety.scss';
+@import './AboutInstrument.scss';
 
 .main-container {
-    min-width: 1140px;
-    max-width: 1140px;
-    margin: 0 auto;
+  min-width: 1140px;
+  max-width: 1140px;
+  margin: 0 auto;
 }

@@ -1233,6 +1233,21 @@ template {
   height: 936px;
   width: 100%; }
 
+.Atmosphere {
+  margin-top: 250px; }
+
+.Atmosphere--title {
+  font-family: 'FuturaHeavy' ,serif;
+  font-size: 52px; }
+
+.Atmosphere--sliderAtmosphere {
+  display: flex; }
+
+.sliderAtmosphere--gallery {
+  position: relative;
+  right: 0;
+  display: flex; }
+
 .main-container {
   min-width: 1140px;
   max-width: 1140px;
